@@ -1,0 +1,76 @@
+h1 {
+  color: gold;
+  font-size: 4em;
+}
+
+body {
+  background-color: green;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: whitesmoke;
+  font-style: italic;
+}
+
+#message-el {
+  font-size: 1.5em;
+}
+
+button {
+  background-color: goldenrod;
+  color: green;
+  width: 150px;
+  padding: 5px 0;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 2px;
+}
+.mid {
+  /* background-color: brown; */
+  display: flex;
+  height: 25em;
+}
+
+.player button {
+  width: 50px;
+}
+
+.player {
+  /* background-color: aqua; */
+  flex-grow: 1;
+}
+
+.house {
+  /* background-color: orange; */
+  flex-grow: 1;
+}
+
+#h-cards-el {
+  padding-top: 5em;
+}
+
+.bottom {
+  /* background-color: blueviolet; */
+  float: none;
+}
+
+.a {
+  display: flex;
+  justify-content: center;
+}
+
+.a p {
+  background-color: goldenrod;
+  margin: 1em;
+  /* padding: 1px; */
+}
+
+.a p:hover {
+  cursor: pointer;
+}

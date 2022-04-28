@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <h1>BlackJack</h1>
+      <p id="message-el">Want to play a round?</p>
+    </div>
+
+    <div class="mid">
+      <div class="player">
+        <p id="player-el"></p>
+        <p id="bet-el">Bet:</p>
+        <button id="add-10">+10</button>
+        <button id="add-50">+50</button>
+        <button id="add-100">+100</button>
+        <p id="cards-el"></p>
+        <div class="a">
+          <p id="a-1"></p>
+          <p id="a-11"></p>
+        </div>
+        <p id="sum-el"></p>
+      </div>
+      <div class="house">
+        <p>House</p>
+        <p id="h-cards-el"></p>
+        <p id="h-sum-el"></p>
+      </div>
+    </div>
+    <div class="bottom">
+      <button id="btnst-el" onclick="startGame()">START GAME</button>
+      <br />
+      <button id="btnnc-el" onclick="newCard()">NEW CARD</button>
+      <br />
+      <button id="stand-btn">STAND</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
