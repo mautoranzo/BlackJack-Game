@@ -69,8 +69,11 @@ button {
   background-color: goldenrod;
   margin: 1em;
   /* padding: 1px; */
+  cursor: pointer;
+
 }
 
+button:hover,
 .a p:hover {
-  cursor: pointer;
+  background: rgb(226, 193, 108);
 }
